@@ -72,6 +72,10 @@ a #page{
   font-size: 30px;
 }
 
+.cloud{
+  font-size: 50px;
+}
+
 .x {
   animation: x 13s linear infinite alternate;
 }
