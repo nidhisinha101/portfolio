@@ -22,7 +22,8 @@ p{
 }
 
 .blankspace{
-  height: 200px;
+  height: 400px;
+  background-image: radial-gradient(circle, #e3f4f9, #fff4cb);
 }
 
 .row {
@@ -38,6 +39,8 @@ p{
 .div1, .div2, .div3 {
   min-width: 50px;
   min-height: 50px;
+  transform: rotate(0);
+  transition: transform 0.5s;
 }
 
 a {
@@ -59,6 +62,10 @@ a #page{
 
 .art{
   background-image: radial-gradient(circle, #e3f4f9, #41f695);
+}
+
+div1:hover, div2:hover, div3:hover {
+  transform: rotate(360deg);
 }
 
 .ball{
