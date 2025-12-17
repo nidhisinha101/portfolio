@@ -21,11 +21,6 @@ p{
   font-size: 18px;
 }
 
-.blankspace{
-  height: 400px;
-  background-image: radial-gradient(circle, #e3f4f9, #fff4cb);
-}
-
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
